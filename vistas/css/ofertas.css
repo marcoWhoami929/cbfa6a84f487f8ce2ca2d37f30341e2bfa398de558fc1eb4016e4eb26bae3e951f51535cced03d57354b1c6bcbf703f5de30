@@ -1,0 +1,88 @@
+/*=============================================
+OFERTAS
+=============================================*/
+.ofertas{
+	position: relative;
+	background: linear-gradient(black,#222,silver,white);
+	padding:0;
+	border-radius:5px;
+	margin-bottom:40px;
+	
+}
+
+.ofertas h3{
+	padding-top:20px;
+	color:white;
+
+}
+
+.ofertas figure{
+	position: relative;
+}
+
+.ofertas h1{
+	color:white;
+	margin-top:-30px;
+	font-size: 40px;
+	text-shadow:0px 0px 10px black;
+}
+
+.ofertas .countdown{
+	margin-bottom:5px;
+}
+.ofertas .countdown2{
+	margin-bottom:5px;
+}
+
+.ofert{
+	margin-top: 150px;
+}
+/*=============================================
+MOVIL (XS revisamos en 414px)
+=============================================*/
+
+@media (max-width:414px){
+	.ofert{
+	margin-top: 320px;
+}
+}
+
+/*=============================================
+MOVIL (XS revisamos en 384px)
+=============================================*/
+
+@media (max-width:384px){
+	.ofert{
+	margin-top: 300px;
+}
+}
+
+/*=============================================
+MOVIL (XS revisamos en 375px)
+=============================================*/
+
+@media (max-width:375px){
+	.ofert{
+	margin-top: 300px;
+}
+}
+
+/*=============================================
+MOVIL (XS revisamos en 360px)
+=============================================*/
+
+@media (max-width:360px){
+	.ofert{
+	margin-top: 300px;
+}
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:320px){
+	.ofert{
+	margin-top: 300px;
+}
+}

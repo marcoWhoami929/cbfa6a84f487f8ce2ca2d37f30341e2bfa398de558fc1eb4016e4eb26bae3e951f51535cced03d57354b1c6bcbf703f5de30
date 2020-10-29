@@ -1,0 +1,41 @@
+cuentas de PAY U
+correo: sfeshop@gmail.com
+password: Dekkerlabeshop1
+
+MerchandId: 508029
+AccountId: 512324
+Apikey: 4Vj8eK4rloUd272L48hsrarnUA
+
+
+cuenta de PAYPAL
+correo: sfeshop@gmail.com
+password: dekkerlabeshop1
+
+disprosoft@gmail.com
+dekkerlabeshop1
+
+
+***********************************************
+CAMBIOS AL PASAR A MODO PRODUCCIÓN
+***********************************************
+-Cambiar la conexion a la base de datos
+-cambiar las rutas de los proyectos
+confirmar funcionamiento de los correos electrónicos enviados por el sistema
+-cambiar la ruta de la API de facebook por el dominio del proyecto 
+https://developers.facebook.com/
+
+- Cambiar la ruta de la  API DE Google por el dominio del proyecto
+https://console.developers.google.com
+
+-cambiar la ruta de la API de Paypal
+-cambiar las credenciales de PAYPAL  a modo live
+https://developerss.paypal.com
+
+- cambiar las credenciales de PAYU a modo live.
+
+
+**********************************************************
+cuenta zendesk chat
+**********************************************************
+sfdeshop@gmail.com
+password: dekkerlabeshop

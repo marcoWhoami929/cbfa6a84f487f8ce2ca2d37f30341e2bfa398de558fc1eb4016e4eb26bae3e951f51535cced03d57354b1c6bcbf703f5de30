@@ -1,0 +1,2026 @@
+/*=============================================
+TOP
+=============================================*/
+
+#top ul{
+	padding-top:8px;
+}
+
+#top ul li{
+	display:inline;
+	line-height:30px;
+	margin:0px 5px;
+	color:white;
+}
+
+.social ul li a i{
+	font-size:18px;
+	margin:0 1px;
+}
+
+.registro ul{
+	text-align: right;
+	font-size:12px;
+}
+
+/*Estilos Generales*/
+
+.btnGen{
+	background:#7f8c8d;
+	color:#fff;
+	display:inline-block;
+	font-size:1.25em;
+	padding:10px 0;
+	text-align:center;
+	width:230px;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #373c3c;
+}
+.button {
+	background:#7f8c8d;
+	color:#fff;
+	display:inline-block;
+	font-size:1.25em;
+	padding:10px 0;
+	text-align:center;
+	width:230px;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #373c3c;
+}
+ 
+.button span {
+	margin-right:10px;
+}
+ 
+/*Colores*/
+.button.blue {
+	background:#000000;
+	box-shadow:0px 3px 0px #b55704;
+}
+.buttinGen.yellow{
+	background:#e67e22;
+	box-shadow:0px 3px 0px #b55704;
+}
+.button.yellow {
+	background:#e67e22;
+	box-shadow:0px 3px 0px #000000;
+}
+ 
+.button.yellow-2{
+	background: #e67e22;
+	box-shadow: 0px 3px 0px #000000;
+	width: 300px;
+}
+
+ 
+/*Efectos, Hover*/
+.button.button.yellow-2:hover {
+	box-shadow:0px 0px 0px;
+	padding-top:7px;
+	color: white;
+	background: #000000;
+	box-shadow: 10px 3px 0px #b55704;	
+}
+/*Efectos, Hover*/
+.button.button.yellow:hover {
+	box-shadow:0px 0px 0px;
+	padding-top:7px;
+	color: white;
+	background: #000000;
+	box-shadow: 10px 3px 0px #b55704;	
+}
+.button.button.blue:hover{
+	box-shadow:0px 0px 0px;
+	padding-top:7px;
+	color: white;
+	background: #e67e22;
+	box-shadow: 10px 3px 0px #b55704;	
+}
+
+
+
+/*=============================================
+HEADER
+=============================================*/
+
+header #logotipo img{
+	padding:15px 0px 0px;
+}
+header #btnCategorias{
+	margin:20px 0;
+	
+}
+
+header #btnCategorias p{
+	line-height:40px;
+	margin-bottom:0px;
+
+}
+
+header #btnCategorias p span{
+	cursor: pointer;
+	
+}
+
+header #buscador{
+	margin:20px 0;
+}
+
+header #buscador input{
+	padding:19px;
+	border-radius:0;
+}
+
+header #buscador button{
+	padding:9px;
+	border:1px solid silver;
+	border-radius:0;margin-top: -5PX;
+}
+
+header #carrito{
+	margin:20px 0;
+}
+
+header #carrito button{
+	padding:9px 15px;
+	border:1px solid silver;
+	border-radius:0;
+}
+
+header #carrito p{
+	padding:2px;
+	padding-left:60px;
+	border:1px solid #aaa;
+	font-size:12px;
+}
+
+header #categorias{
+	display:none;
+	margin-top:-10px;
+	position: relative;
+	padding-bottom:20px;
+	width: 100%;
+	height: 100%;
+    overflow: scroll;
+	
+
+}
+
+header #categorias h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+	
+}
+
+header #categorias hr{
+	border:1px solid rgba(255,255,255,.3);
+
+
+
+}
+
+header #btnSucursal{
+	margin:20px 0;
+	padding:9px 15px;
+	border:1px solid silver;
+	border-radius:0;
+}
+
+
+header #btnSucursal span{
+	cursor: pointer;
+}
+
+header #btnSucursal span i{
+	position:relative;
+}
+
+header #sucursal{
+	display:none;
+	margin-top:-10px;
+	position: relative;
+	padding-bottom:20px;
+}
+
+header #sucursal h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+}
+
+header #sucursal hr{
+	border:1px solid rgba(255,255,255,.3);
+}
+
+/*=============================================
+VENTANAS MODALES
+=============================================*/
+
+.modalTitulo{
+	padding:5px 0px;
+}
+
+.modalTitulo h3{
+	text-align:center;
+	margin-top:-5px;
+	padding:15px 0px;
+	border-radius:5px 5px 0px 0px;
+}
+
+.modalFormulario .close{
+	position:absolute;
+	right:27px;
+	top:15px;
+	color:white;
+}
+
+.modalFormulario .facebook, .modalFormulario .google{
+	cursor:pointer;
+	margin-top: 25px;
+
+}
+
+.modalFormulario .facebook p{
+	background:#46639f;
+	margin-left: 0px;
+	margin-right: -15px;
+
+}
+
+.modalFormulario .google p{
+	background:#d6513e;
+
+}
+
+.modalFormulario .facebook p, .modalFormulario .google p{
+	color:white;
+	text-align:center;
+	line-height:40px;
+	padding:8px;
+	font-size:18px;
+	margin-top:-15px;
+	margin-bottom:20px;
+}
+
+.modalFormulario p i{
+	margin-left:-25px;
+	margin-right:25px;
+	font-size:25px;	
+}
+
+.modalFormulario form{
+	padding:20px;
+}
+
+.modalFormulario form hr{
+	border:1px solid #eee;
+}
+
+.modalFormulario form input[type="text"], .modalFormulario form input[type="email"], .modalFormulario form input[type="password"]{
+	padding:25px;
+}
+.modalFormulario form input[type="submit"]{
+	padding:15px;
+}
+
+.modalFormulario form .checkBox{
+	margin-top:10px;
+}
+
+.tt-menu{
+		background: white;
+		border-radius: 4px;
+		border: none;
+		margin-top: 10px;
+		width: 100%;
+		max-height: 200px;
+		overflow-y:auto;
+		text-align: left;
+		padding-left: 10px;
+
+
+
+
+	}
+	.tt-dataset tt-dataset-productos{
+		border-top: 1px solid #ccd6dd;
+	}
+	.tt-suggestion {
+
+		padding: 5px 10px;
+		color: black;
+		font-weight: bold;
+	}
+	.tt-highlight{
+		color: #ff5c55;
+	}
+	.typeahead-selectable{
+		cursor: pointer;
+		color: #fff;
+		background-color: #0097cf; 
+	
+	}
+	.tt-suggestion.typeahead-selectable {
+  		
+  		color: #fff;
+		background-color: #0097cf; 
+		cursor: pointer; 
+	}
+	.tt-suggestion:hover {
+		color: #fff;
+		background-color: #0097cf; 
+		cursor: pointer; 
+	} 
+	 .tt-suggestion.tt-cursor {
+	 	color: #fff;
+		background-color: #0097cf; 
+		cursor: pointer; 
+	  } 
+	 
+
+	
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1440px en adelante)
+=============================================*/
+@media  screen and (max-width: 1440px) {
+   /*=============================================
+	HEADER
+	=============================================*/
+	/*
+
+	header #logotipo img{
+		padding:15px 0px 0px;
+	}
+	header #btnCategorias{
+	margin:20px 0;
+	font-size: 13px;
+	
+	}
+
+	header #btnCategorias p span{
+	cursor: pointer;
+	font-size: 12px;
+	
+	}
+
+	header #categorias{
+	display:none;
+	margin-top:-5px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 1300px;
+	height: 300px;
+    overflow: scroll;
+    
+    font-size: 12px;
+	}
+	
+	header #categorias h4{
+		margin-top:20px;
+		margin-bottom:-10px;
+		font-size: 13px;
+		
+	}
+
+	header #buscador{
+		
+		margin-bottom:10px;
+	}
+
+	header #carrito{
+		
+		margin:-60px 900px;
+		z-index: 101;
+	}
+
+	header #carrito button{
+		padding:9px 15px;
+		border:1px solid silver;
+		border-radius:0;
+	}
+
+	header #carrito p{
+		
+		padding-left:50px;
+		width: 150px;
+		height: 40px;
+		border:1px solid #aaa;
+		font-size:12px;
+
+	}
+
+	header #btnSucursal{
+	padding-left: 10px; 
+	border:1px solid silver;
+	border-radius:0;
+	width: 100px;
+	height: 40px;
+	font-size:14px;
+	}
+
+	header #btnSucursal span{
+	cursor: pointer;
+	margin-top: -5px;
+	font-size: 18px;
+	}
+
+	header #sucursal{
+	display:none;
+	margin-top:0px;
+	margin-left: 785px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 300px;
+	height: 160px;
+    overflow: scroll;
+    z-index: 101;
+    font-size: 12px;
+
+	}
+	header #sucursal h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+	font-size: 14px;
+	}
+
+
+	.modalFormulario .google p{
+		margin-top:-15px;
+	}
+	*/
+}
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+@media screen and (max-width: 1366px){
+
+	/*=============================================
+	HEADER
+	=============================================*/
+	/*
+
+	header #logotipo img{
+		padding:15px 0px 0px;
+	}
+	header #btnCategorias{
+	margin:20px 0;
+	font-size: 13px;
+	
+	}
+
+	header #btnCategorias p span{
+	cursor: pointer;
+	font-size: 12px;
+	
+	}
+
+	header #categorias{
+	display:none;
+	margin-top:-5px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 1200px;
+	height: 290px;
+    overflow: scroll;
+    
+    font-size: 12px;
+	}
+	
+	header #categorias h4{
+		margin-top:20px;
+		margin-bottom:-10px;
+		font-size: 13px;
+		
+	}
+
+	header #buscador{
+		
+		margin-bottom:10px;
+	}
+
+	header #carrito{
+		
+		margin:-60px 900px;
+		z-index: 101;
+	}
+
+	header #carrito button{
+		padding:9px 15px;
+		border:1px solid silver;
+		border-radius:0;
+	}
+
+	header #carrito p{
+		
+		padding-left:50px;
+		width: 150px;
+		height: 40px;
+		border:1px solid #aaa;
+		font-size:12px;
+
+	}
+
+	header #btnSucursal{
+	padding-left: 10px; 
+	border:1px solid silver;
+	border-radius:0;
+	width: 100px;
+	height: 40px;
+	font-size:14px;
+	}
+
+	header #btnSucursal span{
+	cursor: pointer;
+	margin-top: -5px;
+	font-size: 18px;
+	}
+
+	header #sucursal{
+	display:none;
+	margin-top:0px;
+	margin-left: 785px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 300px;
+	height: 160px;
+    overflow: scroll;
+    z-index: 101;
+    font-size: 12px;
+
+	}
+	header #sucursal h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+	font-size: 14px;
+	}
+
+
+	.modalFormulario .google p{
+		margin-top:-15px;
+	}
+	*/
+
+}
+
+
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media screen and (max-width: 1288px){
+
+	/*=============================================
+	HEADER
+	=============================================*/
+	/*
+	header #logotipo img{
+		display: none;
+	}
+	header #btnCategorias{
+	margin:20px 0;
+	font-size: 13px;
+	
+	}
+
+	header #btnCategorias p span{
+	cursor: pointer;
+	font-size: 12px;
+	
+	}
+
+	header #categorias{
+	display:none;
+	margin-top:-5px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 1100px;
+	height: 290px;
+    overflow: scroll;
+    
+    font-size: 12px;
+	}
+	
+	header #categorias h4{
+		margin-top:20px;
+		margin-bottom:-10px;
+		font-size: 13px;
+		
+	}
+
+	header #buscador{
+		
+		margin-bottom:10px;
+	}
+
+	header #carrito{
+		
+		margin:-60px 900px;
+		z-index: 101;
+	}
+
+	header #carrito button{
+		padding:9px 15px;
+		border:1px solid silver;
+		border-radius:0;
+	}
+
+	header #carrito p{
+		
+		padding-left:50px;
+		width: 150px;
+		height: 40px;
+		border:1px solid #aaa;
+		font-size:12px;
+
+	}
+
+	header #btnSucursal{
+	padding-left: 10px; 
+	border:1px solid silver;
+	border-radius:0;
+	width: 100px;
+	height: 40px;
+	font-size:14px;
+	}
+
+	header #btnSucursal span{
+	cursor: pointer;
+	margin-top: -5px;
+	font-size: 18px;
+	}
+
+	header #sucursal{
+	display:none;
+	margin-top:0px;
+	margin-left: 785px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 400px;
+	height: 100px;
+    overflow: scroll;
+    z-index: 101;
+    font-size: 12px;
+
+	}
+	header #sucursal h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+	font-size: 14px;
+	}
+
+
+	.modalFormulario .google p{
+		margin-top:-15px;
+	}
+	*/
+
+}
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1200px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+	
+	.registro ul{
+	text-align: left;
+	margin-left: 50px;
+	font-size:12px;
+	}
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logotipo img{
+		padding:20px 60px;
+		padding-left:0px;
+	}
+	header #btnCategorias{
+	margin:20px 0;
+	font-size: 14px;
+	
+	}
+
+	header #btnCategorias p span{
+	cursor: pointer;
+	font-size: 14px;
+	
+	}
+
+	header #categorias{
+	display:none;
+	margin-top:-5px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 1200px;
+	height: 350px;
+    overflow: auto;
+    
+    font-size: 13px;
+	}
+	
+	header #categorias h4{
+		margin-top:20px;
+		margin-bottom:-10px;
+		font-size: 16px;
+		
+	}
+
+	header #buscador{
+		
+		margin-bottom:10px;
+	}
+
+	header #carrito{
+		
+		margin:-63px 965px;
+		z-index: 101;
+	}
+
+	header #carrito button{
+		padding:9px 15px;
+		border:1px solid silver;
+		border-radius:0;
+	}
+
+	header #carrito p{
+		
+		padding-left:60px;
+		width: 176px;
+		height: 40px;
+		border:1px solid #aaa;
+		font-size:12px;
+
+	}
+
+	header #btnSucursal{
+	padding-left: 15px; 
+	border:1px solid silver;
+	border-radius:0;
+	width: 97px;
+	height: 40px;
+	
+	font-size:14px;
+	}
+
+	header #btnSucursal span{
+	cursor: pointer;
+	margin-top: -0px;
+	margin-left: -3px;
+	font-size: 14px;
+	}
+
+	header #sucursal{
+	display:none;
+	margin-top:0px;
+	margin-left: 785px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 150px;
+	height: 250px;
+    overflow: auto;
+    z-index: 101;
+    font-size: 12px;
+
+	}
+	header #sucursal h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+	font-size: 14px;
+	}
+
+
+	.modalFormulario .google p{
+		margin-top:-15px;
+	}
+	
+
+}
+/*=============================================*/
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1336px) and (orientation : portrait) { 
+	
+	header #logotipo img{
+		margin-left: 230px;
+		width: 220px;
+		margin-top: 10px;
+	
+		
+	}
+	header #btnCategorias{
+
+		margin-top:20px;
+		font-size: 12px;
+		margin-left:90px;
+
+	
+	}
+
+	header #btnCategorias p span{
+	margin-left: -40px;
+	cursor: pointer;
+	font-size: 12px;
+
+	
+	}
+
+	header #categorias{
+	
+	margin-top:-5px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 720px;
+	height: 220px;
+    overflow: scroll;
+    
+    font-size: 12px;
+	}
+	
+	header #categorias h4{
+		margin-top:20px;
+		margin-bottom:-10px;
+		font-size: 13px;
+		
+	}
+
+	header #buscador{
+		
+		margin-bottom:10px;
+		
+		margin-top:20px;
+
+
+	}
+	header #buscador input{
+		width: 220px;
+		font-size: 12px;
+	}
+	
+	header #buscador button{
+		margin-left: 0px;
+		
+
+	}
+
+	header #carrito{
+		
+		margin: 20px 0px;
+		height: 15px;
+	
+	}
+
+	header #carrito button{
+		padding:9px 15px;
+		
+		border:1px solid silver;
+		border-radius:0;
+	}
+
+	header #carrito p{
+		
+		padding-left:50px;
+		width: 150px;
+		height: 40px;
+		border:1px solid #aaa;
+		font-size:12px;
+
+	}
+	
+
+	header #btnSucursal{
+	margin-left: 0px;
+	padding-left: 10px; 
+	border:1px solid silver;
+	border-radius:0;
+	width: 100px;
+	height: 40px;
+	font-size:14px;
+	margin-top: 20px;
+	}
+
+	header #btnSucursal span{
+	cursor: pointer;
+	margin-top: -5px;
+	font-size: 18px;
+	}
+
+	header #sucursal{
+	display:none;
+	margin-top:0px;
+	margin-left: 435px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 353px;
+	height: 150px;
+    overflow: scroll;
+    z-index: 101;
+    font-size: 12px;
+
+	}
+	header #sucursal h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+	font-size: 14px;
+	}
+
+
+	.modalFormulario .google p{
+		margin-top:-15px;
+	}
+
+}
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	/*=============================================
+	HEADER
+	=============================================*/
+	header #logotipo img{
+		padding:20px 0px 0px;
+	}
+	header #btnCategorias{
+	margin:20px 0;
+	font-size: 13px;
+	
+	}
+
+	header #btnCategorias p span{
+	cursor: pointer;
+	font-size: 12px;
+	
+	}
+
+	header #categorias{
+	display:none;
+	margin-top: 10px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 1000px;
+	height: 250px;
+    overflow: scroll;
+    
+    font-size: 12px;
+	}
+	
+	header #categorias h4{
+		margin-top:20px;
+		margin-bottom:-10px;
+		font-size: 13px;
+		
+	}
+
+	header #buscador{
+		
+		margin-bottom:10px;
+	}
+
+	header #carrito{
+		
+		margin:-60px 750px;
+		z-index: 101;
+	}
+
+	header #carrito button{
+		padding:9px 15px;
+		border:1px solid silver;
+		border-radius:0;
+	}
+
+	header #carrito p{
+		
+		padding-left:50px;
+		width: 150px;
+		height: 40px;
+		border:1px solid #aaa;
+		font-size:12px;
+
+	}
+
+	header #btnSucursal{
+	padding-left: 10px; 
+	border:1px solid silver;
+	border-radius:0;
+	width: 100px;
+	height: 40px;
+	font-size:14px;
+	}
+
+	header #btnSucursal span{
+	cursor: pointer;
+	margin-top: -5px;
+	font-size: 18px;
+	}
+
+	header #sucursal{
+	display:none;
+	margin-top:0px;
+	margin-left: 455px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 353px;
+	height: 150px;
+    overflow: scroll;
+    z-index: 101;
+    font-size: 12px;
+
+	}
+	header #sucursal h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+	font-size: 14px;
+	}
+
+
+	.modalFormulario .google p{
+		margin-top:-15px;
+	}
+	
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+	/*=============================================
+	TOP
+	=============================================*/
+
+	
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logotipo img{
+		padding:30px 0px 0px;
+	}
+	header #btnCategorias{
+	margin:20px 0;
+	font-size: 13px;
+	
+	}
+
+	header #btnCategorias p span{
+	cursor: pointer;
+	font-size: 12px;
+	
+	}
+
+	header #categorias{
+	display:none;
+	margin-top:-30px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 830px;
+	height: 150px;
+    overflow: scroll;
+    
+    font-size: 12px;
+	}
+	
+	header #categorias h4{
+		margin-top:20px;
+		margin-bottom:-10px;
+		font-size: 13px;
+		
+	}
+
+	header #buscador{
+		
+		margin-bottom:10px;
+	}
+
+	header #carrito{
+		
+		margin:-60px 680px;
+		z-index: 101;
+	}
+
+	header #carrito button{
+		padding:9px 15px;
+		border:1px solid silver;
+		border-radius:0;
+	}
+
+	header #carrito p{
+		
+		padding-left:50px;
+		width: 150px;
+		height: 40px;
+		border:1px solid #aaa;
+		font-size:12px;
+
+	}
+
+	header #btnSucursal{
+	padding-left: 10px; 
+	border:1px solid silver;
+	border-radius:0;
+	width: 100px;
+	height: 40px;
+	font-size:14px;
+	}
+
+	header #btnSucursal span{
+	cursor: pointer;
+	margin-top: -5px;
+	font-size: 18px;
+	}
+
+	header #sucursal{
+	display:none;
+	margin-top:0px;
+	margin-left: 455px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 353px;
+	height: 150px;
+    overflow: scroll;
+    z-index: 101;
+    font-size: 12px;
+
+	}
+	header #sucursal h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+	font-size: 14px;
+	}
+
+
+	.modalFormulario .google p{
+		margin-top:-15px;
+	}
+	
+
+}
+/*=============================================
+IPAD (XS revisamos en 834px)
+=============================================*/
+@media only screen and (min-device-width : 1112px) and (max-device-width : 834px) and (orientation : landscape) {
+
+	header #logotipo img{
+	
+		width: 160px;
+	
+		
+	}
+	header #btnCategorias{
+
+		margin-top:20px;
+		font-size: 12px;
+		margin-left:0px;
+
+	
+	}
+
+	header #btnCategorias p span{
+	margin-left: -40px;
+	cursor: pointer;
+	font-size: 12px;
+
+	
+	}
+
+	header #categorias{
+	
+	margin-top:50px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 100px;
+	height: 250px;
+    overflow: scroll;
+    
+    font-size: 12px;
+	}
+	
+	header #categorias h4{
+		margin-top:20px;
+		margin-bottom:-10px;
+		font-size: 13px;
+		
+	}
+
+
+
+
+ }
+/*=============================================
+IPAD (XS revisamos en 768px)
+=============================================*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logotipo img{
+		margin-left: 230px;
+		width: 220px;
+		margin-top: -10px;
+	
+		
+	}
+	header #btnCategorias{
+
+		margin-top:20px;
+		font-size: 12px;
+		margin-left:0px;
+
+	
+	}
+
+	header #btnCategorias p span{
+	margin-left: -40px;
+	cursor: pointer;
+	font-size: 12px;
+
+	
+	}
+
+	header #categorias{
+	
+	margin-top:-5px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 720px;
+	height: 220px;
+    overflow: scroll;
+    
+    font-size: 12px;
+	}
+	
+	header #categorias h4{
+		margin-top:20px;
+		margin-bottom:-10px;
+		font-size: 13px;
+		
+	}
+
+	header #buscador{
+		
+		margin-bottom:10px;
+		
+		margin-top:20px;
+
+
+	}
+	header #buscador input{
+		width: 220px;
+		font-size: 12px;
+	}
+	
+	header #buscador button{
+		margin-left: 0px;
+		
+
+	}
+
+	header #carrito{
+		
+		margin: 20px 0px;
+		height: 15px;
+	
+	}
+
+	header #carrito button{
+		padding:9px 15px;
+		
+		border:1px solid silver;
+		border-radius:0;
+	}
+
+	header #carrito p{
+		
+		padding-left:50px;
+		width: 150px;
+		height: 40px;
+		border:1px solid #aaa;
+		font-size:12px;
+
+	}
+	
+
+	header #btnSucursal{
+	margin-left: 0px;
+	padding-left: 10px; 
+	border:1px solid silver;
+	border-radius:0;
+	width: 100px;
+	height: 40px;
+	font-size:14px;
+	margin-top: 20px;
+	}
+
+	header #btnSucursal span{
+	cursor: pointer;
+	margin-top: -5px;
+	font-size: 18px;
+	}
+
+	header #sucursal{
+	display:none;
+	margin-top:0px;
+	margin-left: 435px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 353px;
+	height: 150px;
+    overflow: scroll;
+    z-index: 101;
+    font-size: 12px;
+
+	}
+	header #sucursal h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+	font-size: 14px;
+	}
+
+
+	.modalFormulario .google p{
+		margin-top:-15px;
+	}
+
+
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 
+
+	header #logotipo img{
+	
+		width: 210px;
+	
+		
+	}
+	header #btnCategorias{
+
+		margin-top:20px;
+		font-size: 12px;
+		margin-left:0px;
+
+	
+	}
+
+	header #btnCategorias p span{
+	margin-left: -40px;
+	cursor: pointer;
+	font-size: 12px;
+
+	
+	}
+
+	header #categorias{
+	
+	margin-top:10px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 950px;
+	height: 250px;
+    overflow: scroll;
+    
+    font-size: 12px;
+	}
+	
+	header #categorias h4{
+		margin-top:20px;
+		margin-bottom:-10px;
+		font-size: 13px;
+		
+	}
+
+
+}
+/*=============================================
+MOVIL (XS revisamos en 414px)
+=============================================*/
+
+@media (max-width:414px){
+
+	/*=============================================
+	TOP
+	=============================================*/
+
+	#top ul{
+		text-align: center;
+	}
+
+	#top #registro{
+		border-top:1px solid #222;
+	}
+	.social ul li a i{
+	font-size:18px;
+	margin:0 -5px;
+}
+
+	.registro ul{
+	text-align: left;
+	font-size:13px;
+	margin:0 -55px;
+	}
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logotipo img{
+		padding:30px;
+		padding-bottom:10px;
+	}
+	header #btnCategorias{
+	margin:20px 0;
+	font-size: 13px;
+	
+	}
+
+	header #btnCategorias p span{
+	cursor: pointer;
+	font-size: 12px;
+	
+	}
+
+	header #categorias{
+	display:none;
+	margin-top:65px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 353px;
+	height: 150px;
+    overflow: scroll;
+    z-index: 101;
+    font-size: 12px;
+	}
+	
+	header #categorias h4{
+		margin-top:20px;
+		margin-bottom:-10px;
+		font-size: 13px;
+		
+	}
+
+	header #buscador{
+		
+		margin-bottom:10px;
+	}
+
+	header #carrito{
+		padding-top: 20px;
+		margin:0px;
+		z-index: 1;
+	}
+	header #carrito p{
+	padding:2px;
+	padding-left:20px;
+	width: 163px;
+	border:1px solid #aaa;
+	font-size:12px;
+	z-index: 1;
+	}
+	header #btnSucursal{
+	margin:20px 15px;
+	padding:9px 15px;
+	border:1px solid silver;
+	border-radius:0;
+	width: 160px;
+	height: 40px;
+	font-size:14px;
+	}
+
+	header #btnSucursal span{
+	cursor: pointer;
+	margin-top: -5px;
+	font-size: 18px;
+	}
+
+	header #sucursal{
+	display:none;
+	margin-top:250px;
+	margin-left: 15px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 353px;
+	height: 150px;
+    overflow: scroll;
+    z-index: 101;
+    font-size: 12px;
+
+	}
+	header #sucursal h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+	font-size: 14px;
+	}
+
+
+	.modalFormulario .google p{
+		margin-top:-15px;
+	}
+	
+}
+/*=============================================
+MOVIL (XS revisamos en 384px)
+=============================================*/
+
+@media (max-width:384px){
+
+	/*=============================================
+	TOP
+	=============================================*/
+
+	#top ul{
+		text-align: center;
+	}
+
+	#top #registro{
+		border-top:1px solid #222;
+	}
+	.social ul li a i{
+	font-size:18px;
+	margin:0 -5px;
+}
+
+	.registro ul{
+	text-align: left;
+	font-size:13px;
+	margin:0 -50px;
+	}
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logotipo img{
+		padding:30px;
+		padding-bottom:10px;
+	}
+	header #btnCategorias{
+	margin:20px 0;
+	font-size: 12px;
+	
+	}
+
+	header #btnCategorias p span{
+	cursor: pointer;
+	font-size: 10px;
+	
+	}
+
+	header #categorias{
+	display:none;
+	margin-top:65px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 323px;
+	height: 150px;
+    overflow: scroll;
+    z-index: 101;
+    font-size: 10px;
+	}
+	
+	header #categorias h4{
+		margin-top:20px;
+		margin-bottom:-10px;
+		font-size: 13px;
+		
+	}
+
+	header #buscador{
+		
+		margin-bottom:10px;
+	}
+
+	header #carrito{
+		padding-top: 20px;
+		margin:0px;
+		z-index: 1;
+	}
+	header #carrito p{
+	padding:2px;
+	padding-left:20px;
+	width: 145px;
+	border:1px solid #aaa;
+	font-size:12px;
+	z-index: 1;
+	}
+	header #btnSucursal{
+	margin:20px 15px;
+	padding:9px 15px;
+	border:1px solid silver;
+	border-radius:0;
+	width: 146px;
+	height: 40px;
+	font-size:12px;
+	}
+
+	header #btnSucursal span{
+	cursor: pointer;
+	margin-top: -5px;
+	font-size: 15px;
+	}
+
+	header #sucursal{
+	display:none;
+	margin-top:240px;
+	margin-left: 15px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 323px;
+	height: 150px;
+    overflow: scroll;
+    z-index: 101;
+    font-size: 12px;
+
+	}
+	header #sucursal h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+	font-size: 13px;
+	}
+
+
+	.modalFormulario .google p{
+		margin-top:-15px;
+	}
+	
+}
+/*=============================================
+MOVIL (XS revisamos en 375px)
+=============================================*/
+
+@media (max-width:375px){
+
+	/*=============================================
+	TOP
+	=============================================*/
+
+	#top ul{
+		text-align: center;
+	}
+
+	#top #registro{
+		border-top:1px solid #222;
+	}
+	.social ul li a i{
+	font-size:18px;
+	margin:0 -5px;
+}
+
+	.registro ul{
+	text-align: left;
+	font-size:13px;
+	margin:0 -45px;
+	}
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logotipo img{
+		padding:30px;
+		padding-bottom:10px;
+	}
+	header #btnCategorias{
+	margin:20px 0;
+	font-size: 12px;
+	
+	}
+
+	header #btnCategorias p span{
+	cursor: pointer;
+	font-size: 10px;
+	
+	}
+
+	header #categorias{
+	display:none;
+	margin-top:65px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 315px;
+	height: 150px;
+    overflow: scroll;
+    z-index: 101;
+    font-size: 10px;
+	}
+	
+	header #categorias h4{
+		margin-top:20px;
+		margin-bottom:-10px;
+		font-size: 13px;
+		
+	}
+
+	header #buscador{
+		
+		margin-bottom:10px;
+	}
+
+	header #carrito{
+		padding-top: 20px;
+		margin:0px;
+		z-index: 1;
+	}
+	header #carrito p{
+	padding:2px;
+	padding-left:20px;
+	width: 140px;
+	border:1px solid #aaa;
+	font-size:12px;
+	z-index: 1;
+	}
+	header #btnSucursal{
+	margin:20px 15px;
+	padding:9px 15px;
+	border:1px solid silver;
+	border-radius:0;
+	width: 140px;
+	height: 40px;
+	font-size:10px;
+	}
+
+	header #btnSucursal span{
+	cursor: pointer;
+	margin-top: -5px;
+	font-size: 15px;
+	}
+
+	header #sucursal{
+	display:none;
+	margin-top:240px;
+	margin-left: 15px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 315px;
+	height: 150px;
+    overflow: scroll;
+    z-index: 101;
+    font-size: 10px;
+
+	}
+	header #sucursal h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+	font-size: 13px;
+	}
+
+
+	.modalFormulario .google p{
+		margin-top:-15px;
+	}
+	
+}
+/*=============================================
+MOVIL (XS revisamos en 360px)
+=============================================*/
+
+@media (max-width:360px){
+
+	/*=============================================
+	TOP
+	=============================================*/
+
+	#top ul{
+		text-align: center;
+	}
+
+	#top #registro{
+		border-top:1px solid #222;
+	}
+	.social ul li a i{
+	font-size:18px;
+	margin:0 -5px;
+}
+
+	.registro ul{
+	text-align: left;
+	font-size:13px;
+	margin:0 -30px;
+	
+	}
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logotipo img{
+		padding:30px;
+		padding-bottom:10px;
+	}
+	header #btnCategorias{
+	margin:20px 0;
+	font-size: 10px;
+	
+	}
+
+	header #btnCategorias p span{
+	cursor: pointer;
+	font-size: 10px;
+	
+	}
+
+	header #categorias{
+	display:none;
+	margin-top:65px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 300px;
+	height: 150px;
+    overflow: scroll;
+    z-index: 101;
+    font-size: 10px;
+	}
+	
+	header #categorias h4{
+		margin-top:20px;
+		margin-bottom:-10px;
+		font-size: 13px;
+		
+	}
+
+	header #buscador{
+		
+		margin-bottom:10px;
+	}
+
+	header #carrito{
+		padding-top: 20px;
+		margin:0px;
+		z-index: 1;
+	}
+	header #carrito p{
+	padding:2px;
+	padding-left:20px;
+	border:1px solid #aaa;
+	font-size:12px;
+	width: 132px;
+	z-index: 1;
+	}
+	header #btnSucursal{
+	margin:20px 15px;
+	padding:9px 15px;
+	border:1px solid silver;
+	border-radius:0;
+	width: 135px;
+	height: 40px;
+	font-size:10px;
+	}
+
+	header #btnSucursal span{
+	cursor: pointer;
+	margin-top: -5px;
+	font-size: 15px;
+	}
+
+	header #sucursal{
+	display:none;
+	margin-top:240px;
+	margin-left: 15px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 300px;
+	height: 150px;
+    overflow: scroll;
+    z-index: 101;
+    font-size: 10px;
+
+	}
+	header #sucursal h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+	font-size: 13px;
+	}
+
+
+	.modalFormulario .google p{
+		margin-top:-15px;
+	}
+	
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:320px){
+
+	/*=============================================
+	TOP
+	=============================================*/
+
+	#top ul{
+		text-align: left;
+	}
+
+	#top #registro{
+		border-top:1px solid #222;
+	}
+	.social ul li a i{
+	font-size:18px;
+	margin:0 -5px;
+	
+	
+}
+
+	.registro ul{
+	font-size:12px;
+	text-align: left;
+	margin:0 -35px;
+	
+	
+	}
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logotipo img{
+		padding:30px;
+		padding-bottom:10px;
+	}
+	header #btnCategorias{
+	margin:20px 0;
+	font-size: 9px;
+	
+	}
+
+	header #btnCategorias p span{
+	cursor: pointer;
+	font-size: 10px;
+	
+	}
+
+	header #categorias{
+	display:none;
+	margin-top:65px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 260px;
+	height: 150px;
+    overflow: scroll;
+    z-index: 101;
+    font-size: 10px;
+	}
+	
+	header #categorias h4{
+		margin-top:20px;
+		margin-bottom:-10px;
+		font-size: 13px;
+		
+	}
+
+	header #buscador{
+		
+		margin-bottom:10px;
+	}
+
+	header #carrito{
+		padding-top: 20px;
+		margin:0px;
+		z-index: 1;
+	}
+	header #carrito p{
+	padding:2px;
+	padding-left:20px;
+	width: 120px;
+	border:1px solid #aaa;
+	font-size:12px;
+	z-index: 1;
+	}
+	header #btnSucursal{
+	margin:20px 15px;
+	padding:9px 15px;
+	border:1px solid silver;
+	border-radius:0;
+	width: 110px;
+	height: 40px;
+	font-size:10px;
+	}
+
+	header #btnSucursal span{
+	cursor: pointer;
+	margin-top: -5px;
+	font-size: 15px;
+	}
+
+	header #sucursal{
+	display:none;
+	margin-top:230px;
+	margin-left: 15px;
+	position: absolute;
+	padding-bottom:20px;
+	width: 260px;
+	height: 150px;
+    overflow: scroll;
+    z-index: 101;
+    font-size: 10px;
+
+	}
+	header #sucursal h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+	font-size: 13px;
+	}
+
+
+	.modalFormulario .google p{
+		margin-top:-15px;
+	}
+	
+}

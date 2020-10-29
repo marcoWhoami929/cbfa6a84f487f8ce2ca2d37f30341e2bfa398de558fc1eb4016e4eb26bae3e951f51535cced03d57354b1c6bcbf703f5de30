@@ -1,0 +1,1804 @@
+/*=============================================
+BANNER
+=============================================*/
+
+			.banner{
+				position: relative;
+				overflow:hidden;
+				margin-top: 120px;
+				margin-bottom: 0px;
+			}
+
+			.banner .textoBanner{
+				position:absolute;
+				font-family: 'Ubuntu Condensed', sans-serif;
+			}
+
+			.banner .textoDer{
+				right:50px; 
+				text-align:right;
+			}
+
+			.banner .textoIzq {
+				left:0px; 
+				text-align:left;
+			}
+
+			.banner .textoIzq h1{
+				background:rgba(0,0,0,.9);
+				text-shadow:0px 0px 10px black;
+				border-radius:0px 5px 5px 0px;
+			}
+
+			.banner .textoCentro{
+				top:50px; 
+				left:50%;
+				width:800px; 
+				margin-left: -400px;
+				text-align:center;
+			}
+
+			.textoBanner h1{
+				font-size:30px;
+				line-height:20px;
+			}
+
+			.textoBanner h2{
+				font-size:25px;
+				line-height:20px;
+			}
+
+			.textoBanner h3{
+				font-size:20px;
+			}
+			#contador{
+				font-size: 15px;
+			}
+			#ordenar-productos{
+
+			}
+			#grids{
+
+			}
+			.ofertas-especiales{
+					color:#ff5c55; 
+					font-size:10px;
+					margin-top:100px;
+				}
+				.prec{
+					color:#ff5c55;
+				}
+				.desc{
+					color:#ff5c55;
+				}
+				.min-text{
+					background:rgba(0,0,0,.9);
+					text-shadow:0px 0px 10px black;
+					border-radius:10px 10px 10px 10px;
+				}
+				.min-text-2{
+					background:rgba(0,0,0,.9);
+					text-shadow:0px 0px 10px black;
+					border-radius:10px 10px 10px 10px;
+				}
+				.fin{
+					color: #ff5c55;
+				}
+				.nombre-p{
+					font-size: 9px;
+				}
+				#no-ofer{
+					font-size: 10px;
+					text-transform: capitalize;
+				}
+				#fin-ofer{
+					font-size: 10px;
+					text-transform: capitalize;
+				}
+			/*=============================================
+			BARRA PRODUCTOS
+			=============================================*/
+
+			.barraProductos .organizarProductos span{
+				margin-left:5px;
+				
+			}
+
+			/*=============================================
+			VITRINA PRODUCTOS CUADRÍCULA
+			=============================================*/
+
+			.tituloDestacado h1{
+				margin-top:-5px;
+			}
+
+			.tituloDestacado button span{
+				margin-left:5px;
+			}
+
+			.productos ul li figure{
+				overflow:hidden;
+			}
+
+			.productos ul li a img:hover{
+				transition: .3s all ease;
+				opacity:.8;
+				transform: scale(1.1,1.1);
+			}
+
+			.productos ul li h4 small{
+				color:#777;
+				text-transform: uppercase;
+				font-size:10px;
+				font-weight: 700;
+			}
+
+			.productos ul li h4 small a{
+				color:#777;
+			}
+
+			.productos ul li div.precio{
+				padding:0;
+				margin-top:-30px;
+				padding-bottom:20px;
+			}
+
+			.productos ul li div.enlaces{
+				padding:0;
+				padding-bottom:20px;
+			}
+
+			.productos ul li div.enlaces button{
+				margin:2px;
+			}
+
+			.productos ul li div.enlaces button i{
+				color:#999;
+				font-size:12px;
+			}
+
+			/*=============================================
+			VITRINA PRODUCTOS LISTA
+			=============================================*/
+
+			.productos ul li h1{
+				margin-top:-10px;
+			}
+
+			.productos ul li h1 small{
+				text-transform: uppercase;
+				font-size:20px;
+				font-weight: 700;
+			}
+
+			.productos ul li h1 small a{
+				color:#777;
+			}
+
+			.oferta{
+				 text-decoration:line-through;
+				 color:#f0ad4e;
+				 font-size:14px;
+			}
+
+			.fontSize{
+				font-size:11px;
+			}
+			.err{
+				margin-top: -100px;
+			}
+			
+			.busc{
+				margin-top: 150px;
+			}
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+	.compra-r{
+		margin-top: 150px;
+	}
+
+	.banner{
+		height:270px;
+	}
+
+	.banner .textoDer{
+		top:5px; 
+	}
+	
+	.banner .textoIzq {
+		top:50px; 
+	}
+
+	.banner .textoIzq h1{
+		font-size:40px;
+		padding:25px;
+		padding-left:100px;
+	}
+	.foot-bread{
+	display: none;
+	}
+	.prod{
+		margin-top: 20px;
+	}
+	.sub-ruta{
+		display: none;	
+	}
+	.ofertas-especiales{
+		display: none;
+	}
+	.prec{
+		display: none;
+	}
+	.desc{
+		display: none;
+	}
+	.miga{
+	margin-top: 100px;
+	}
+	
+	.min-text{
+		display: none;
+	}
+	.ofer{
+		display: none;
+	}
+	#categoria-pro{
+
+		font-size: 11px;
+		font-weight: bolder;
+		
+	}
+	#categoria-pro-2{
+
+		font-size: 13px;
+		font-weight: bolder;
+		
+	}
+	#categoria-h{
+		margin-top:20px;
+		margin-bottom:-20px;
+
+	}
+	#categoria-h-2{
+		margin-top: -10px;
+		margin-bottom: -10px;
+	}
+	#barraMayoreo{
+		margin-top: 150px;
+	}
+	#barraClientes{
+		margin-top: 150px;
+	}
+
+	
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	.compra-r{
+		margin-top: 350px;
+	}
+	.banner{
+		height:230px;
+		margin-top: 120px;
+	}
+	#info-prod{
+		margin-top: 150px;
+	}
+
+	.banner .textoDer, .banner .textoCentro, .banner .textoIzq{
+		display: none;
+	}
+
+	.textoBanner h1{
+		display:none;
+	}
+
+	.textoBanner h2{
+		display:none;
+	}
+
+	.textoBanner h3{
+		display:none;
+	}
+
+	.banner .textoIzq {
+		top:0px; 
+	}
+
+	.banner .textoIzq h1{
+		font-size:20px;
+		padding:20px;
+		text-align: center;
+		display:block;
+	}	
+
+	.tituloDestacado h1{
+		text-align:center;
+	}
+
+	.tituloDestacado button{
+		position: absolute;
+		left:50%;
+		width:40%;
+		margin-left:-20%;
+
+	}
+
+	.productos ul li h1 small{
+		font-size:16px;
+	}
+	.sub-ruta{
+		display: none;
+	}
+	.busc{
+	margin-top: 190px;
+	}
+	#ordenar-productos{
+		margin-top: 5px;
+	}
+	#nombre-cate{
+		display: none;
+	}
+	#nombre-subcate{
+
+	}
+
+	#grids{
+		margin-top: 5px;
+	}
+	.barraProductos{
+		margin-top: -7px;
+		height: 60px;
+		z-index: 101;
+		position: relative;
+	}
+	#ofr{
+		margin-top: 10px;
+	}
+
+	#btnList0{
+		
+	}
+	#bed{
+		margin-bottom: 0px;
+	}
+	.ofertas-especiales{
+		color:#ff5c55; 
+		font-size:14px;
+		text-align: center;
+		margin-top:150px;
+		
+		
+	}
+	.prec{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.desc{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.fin{
+		color:#ff5c55; 
+		font-size:12px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.ofer{
+		margin-top: -160px;
+		margin-bottom: 10px;
+	}
+	.oferta-0{
+		color:#ff5c55; 
+		font-size:15px;
+		text-align: center;
+	}
+	.oferta-1{
+		color:#ff5c55; 
+		font-size:15px;
+		text-align: center;
+	}
+	.min-text-2{
+		margin-top: 150px;
+	}
+	.min-text{
+		margin-top: 150px;
+	}
+	.nombre-p{
+		font-size: 8px;
+
+	}
+	.prec-p{
+		font-size: 14px;
+	}
+	#existencias{
+		font-size: 14px;
+	}
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+	.compra-r{
+		margin-top: 150px;
+	}
+	
+	.banner{
+		height:150px;
+	}
+
+	.banner .textoDer{
+		top:0px; 
+	}
+	
+	.banner .textoIzq {
+		top:10px; 
+	}
+
+	.banner .textoIzq h1{
+		font-size:20px;
+		padding:25px;
+		padding-left:60px;
+	}
+
+	.textoBanner h1{
+		font-size:25px;
+		line-height:10px;
+	}
+
+	.textoBanner h2{
+		font-size:20px;
+		line-height:10px;
+	}
+
+	.textoBanner h3{
+		font-size:20px;
+		line-height:10px;
+	}
+
+	.banner .textoIzq, .banner .textoCentro{
+		top:22px; 
+	}
+	.sub-ruta{
+		display: none;
+	}
+
+}
+/*=============================================
+IPAD (XS revisamos en 834px)
+=============================================*/
+@media only screen and (min-device-width : 1112px) and (max-device-width : 834px) and (orientation : landscape) { 
+
+	.compra-r{
+		margin-top: 350px;
+	}
+	.banner{
+		height:160px;
+		margin-top: 190px;
+	}
+	#info-prod{
+		margin-top: 150px;
+	}
+
+	.banner .textoDer, .banner .textoCentro, .banner .textoIzq{
+		display: none;
+	}
+
+	.textoBanner h1{
+		display:none;
+	}
+
+	.textoBanner h2{
+		display:none;
+	}
+
+	.textoBanner h3{
+		display:none;
+	}
+
+	.banner .textoIzq {
+		top:0px; 
+	}
+
+	.banner .textoIzq h1{
+		font-size:20px;
+		padding:20px;
+		text-align: center;
+		display:block;
+	}	
+
+	.tituloDestacado h1{
+		text-align:center;
+	}
+
+	.tituloDestacado button{
+		position: absolute;
+		left:50%;
+		width:40%;
+		margin-left:-20%;
+
+	}
+
+	.productos ul li h1 small{
+		font-size:16px;
+	}
+	.sub-ruta{
+		
+	}
+	.busc{
+	margin-top: 190px;
+	}
+	#ordenar-productos{
+		margin-top: 5px;
+	}
+	#nombre-cate{
+		display: none;
+	}
+	#nombre-subcate{
+
+	}
+
+	#grids{
+		margin-top: 5px;
+	}
+	.barraProductos{
+		margin-top: -5px;
+		height: 60px;
+		z-index: 101;
+		position: relative;
+	}
+	#ofr{
+		margin-top: 10px;
+	}
+
+	#btnList0{
+		
+	}
+	#bed{
+		margin-bottom: 0px;
+	}
+	.ofertas-especiales{
+		color:#ff5c55; 
+		font-size:14px;
+		text-align: center;
+		margin-top:150px;
+		
+		
+	}
+	.prec{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.desc{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.fin{
+		color:#ff5c55; 
+		font-size:12px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.ofer{
+		margin-top: -160px;
+		margin-bottom: 10px;
+	}
+	.oferta-0{
+		color:#ff5c55; 
+		font-size:15px;
+		text-align: center;
+	}
+	.oferta-1{
+		color:#ff5c55; 
+		font-size:15px;
+		text-align: center;
+	}
+	.min-text-2{
+		margin-top: 150px;
+	}
+	.min-text{
+		margin-top: 150px;
+	}
+	.nombre-p{
+		font-size: 8px;
+
+	}
+	.prec-p{
+		font-size: 14px;
+	}
+	#existencias{
+		font-size: 14px;
+	}
+	
+}
+/*=============================================
+IPAD (XS revisamos en 767px)
+=============================================*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 
+
+		.compra-r{
+		margin-top: 350px;
+	}
+	.banner{
+		height:220px;
+	}
+	#info-prod{
+		margin-top: 150px;
+	}
+
+	.banner .textoDer, .banner .textoCentro, .banner .textoIzq{
+		display: none;
+	}
+
+	.textoBanner h1{
+		display:none;
+	}
+
+	.textoBanner h2{
+		display:none;
+	}
+
+	.textoBanner h3{
+		display:none;
+	}
+
+	.banner .textoIzq {
+		top:0px; 
+	}
+
+	.banner .textoIzq h1{
+		font-size:20px;
+		padding:20px;
+		text-align: center;
+		display:block;
+	}	
+
+	.tituloDestacado h1{
+		text-align:center;
+	}
+
+	.tituloDestacado button{
+		position: absolute;
+		left:50%;
+		width:40%;
+		margin-left:-20%;
+
+	}
+
+	.productos ul li h1 small{
+		font-size:16px;
+	}
+	.sub-ruta{
+		
+	}
+	.busc{
+	margin-top: 320px;
+	}
+	#ordenar-productos{
+		margin-top: 5px;
+	}
+	#nombre-cate{
+		display: none;
+	}
+	#nombre-subcate{
+
+	}
+
+	#grids{
+		margin-top: 5px;
+	}
+	.barraProductos{
+		margin-top:-20px;
+		height: 60px;
+		z-index: 101;
+		position: relative;
+	}
+	.barraProductos2{
+		margin-top:160px;
+		height: 60px;
+		z-index: 101;
+		position: relative;
+	}
+	#btnList0{
+		
+	}
+	#bed{
+		margin-bottom: 0px;
+	}
+	#ofr{
+		margin-top: 0px;
+	}
+
+	.ofertas-especiales{
+		color:#ff5c55; 
+		font-size:14px;
+		text-align: center;
+		margin-top:150px;
+		
+		
+	}
+	.prec{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.desc{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.fin{
+		color:#ff5c55; 
+		font-size:14px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.ofer{
+		margin-top: -160px;
+		margin-bottom: 10px;
+	}
+	.oferta-0{
+		color:#ff5c55; 
+		font-size:15px;
+		text-align: center;
+	}
+	.oferta-1{
+		color:#ff5c55; 
+		font-size:15px;
+		text-align: center;
+	}
+	.min-text-2{
+		margin-top: 140px;
+	}
+	.min-text{
+		margin-top: -10px;
+	}
+	#prec-desc{
+		font-size: 12px;
+	}
+	#existencias{
+		font-size: 12px;
+	}
+	.nombre-p{
+		font-size: 8px;
+
+	}
+	.prec-p{
+		font-size: 14px;
+	}
+
+	
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+
+	.compra-r{
+		margin-top: 350px;
+	}
+	.banner{
+		height:160px;
+		margin-top: 190px;
+	}
+	#info-prod{
+		margin-top: 200px;
+	}
+
+	.banner .textoDer, .banner .textoCentro, .banner .textoIzq{
+		display: none;
+	}
+
+	.textoBanner h1{
+		display:none;
+	}
+
+	.textoBanner h2{
+		display:none;
+	}
+
+	.textoBanner h3{
+		display:none;
+	}
+
+	.banner .textoIzq {
+		top:0px; 
+	}
+
+	.banner .textoIzq h1{
+		font-size:20px;
+		padding:20px;
+		text-align: center;
+		display:block;
+	}	
+
+	.tituloDestacado h1{
+		text-align:center;
+	}
+
+	.tituloDestacado button{
+		position: absolute;
+		left:50%;
+		width:40%;
+		margin-left:-20%;
+
+	}
+
+	.productos ul li h1 small{
+		font-size:16px;
+	}
+	.sub-ruta{
+		
+	}
+	.busc{
+	margin-top: 190px;
+	}
+	#ordenar-productos{
+		margin-top: 5px;
+	}
+	#nombre-cate{
+		display: none;
+	}
+	#nombre-subcate{
+
+	}
+
+	#grids{
+		margin-top: 5px;
+	}
+	.barraProductos{
+		margin-top: -5px;
+		height: 60px;
+		z-index: 101;
+		position: relative;
+	}
+	#ofr{
+		margin-top: 10px;
+	}
+
+	#btnList0{
+		
+	}
+	#bed{
+		margin-bottom: 0px;
+	}
+	.ofertas-especiales{
+		color:#ff5c55; 
+		font-size:14px;
+		text-align: center;
+		margin-top:150px;
+		
+		
+	}
+	.prec{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.desc{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.fin{
+		color:#ff5c55; 
+		font-size:12px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.ofer{
+		margin-top: -160px;
+		margin-bottom: 10px;
+	}
+	.oferta-0{
+		color:#ff5c55; 
+		font-size:15px;
+		text-align: center;
+	}
+	.oferta-1{
+		color:#ff5c55; 
+		font-size:15px;
+		text-align: center;
+	}
+	.min-text-2{
+		margin-top: 140px;
+	}
+	.min-text{
+		margin-top: -10px;
+	}
+	.nombre-p{
+		font-size: 8px;
+
+	}
+	.prec-p{
+		font-size: 14px;
+	}
+	#existencias{
+		font-size: 12px;
+	}
+	#categoria-pro{
+		font-size: 9px;
+		font-weight: bolder;
+		text-transform: uppercase;
+
+	}
+	#prec-desc{
+		font-size: 12px;
+	}
+	#categoria-pro-2{
+
+		font-size: 13px;
+		font-weight: bolder;
+		
+	}
+	#categoria-h{
+		margin-top:20px;
+		margin-bottom:-20px;
+
+	}
+	#categoria-h-2{
+		margin-top: -10px;
+		margin-bottom: -10px;
+	}
+	#img-marca2{
+		width: 25%;
+	}
+	
+}
+
+/*=============================================
+MOVIL (XS revisamos en 414px)
+=============================================*/
+
+@media (max-width:414px){
+	.compra-r{
+		margin-top: 300px;
+	}
+	
+	.banner{
+		height:100px;
+		margin-top: 300px;
+		margin-bottom: -35px;
+	}
+
+	.banner .textoDer, .banner .textoCentro, .banner .textoIzq{
+		display: none;
+	}
+
+	.textoBanner h1{
+		display:none;
+	}
+
+	.textoBanner h2{
+		display:none;
+	}
+
+	.textoBanner h3{
+		display:none;
+	}
+
+	.banner .textoIzq {
+		top:0px; 
+	}
+
+	.banner .textoIzq h1{
+		font-size:20px;
+		padding:20px;
+		text-align: center;
+		display:block;
+	}	
+
+	.tituloDestacado h1{
+		text-align:center;
+	}
+
+	.tituloDestacado button{
+		position: absolute;
+		left:50%;
+		width:40%;
+		margin-left:-20%;
+
+	}
+	.err{
+	margin-top: -10px;
+	}
+	.miga{
+	margin-top: -10px;
+	}
+	.foot-bread{
+	
+	}
+	.prod{
+		margin-top: 0px;
+	}
+	.sub-ruta{
+		
+	}
+	.busc{
+	margin-top: 320px;
+	}
+	/*************Nuevos*/
+
+	#ordenar-productos{
+		margin-top: 5px;
+	}
+	#nombre-cate{
+		display: none;
+	}
+	#nombre-subcate{
+
+	}
+
+	#grids{
+		margin-top: 5px;
+	}
+	.btn-grid-buscar{
+		display: none;
+	}
+	.barraProductos{
+		margin-top:320px;
+		height: 60px;
+		z-index: 101;
+		position: relative;
+	}
+	#btnList0{
+		display: none;
+	}
+	#bed{
+		margin-bottom: -150px;
+	}
+	#ofr{
+		margin-top: 170px;
+	}
+	.ofertas-especiales{
+		color:#ff5c55; 
+		font-size:10px;
+		text-align: center;
+		margin-top:150px;
+		
+		
+	}
+	.prec{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.desc{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.fin{
+		color:#ff5c55; 
+		font-size:9px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.ofer{
+		margin-top: -160px;
+		margin-bottom: 10px;
+	}
+	.oferta-0{
+		color:#ff5c55; 
+		font-size:12px;
+		text-align: center;
+	}
+	.oferta-1{
+		color:#ff5c55; 
+		font-size:10px;
+		text-align: center;
+	}
+	.min-text-2{
+		margin-top: 150px;
+	}
+	#categoria-pro{
+		font-size: 11px;
+		font-weight: bolder;
+		text-transform: uppercase;
+
+	}
+}
+
+/*=============================================
+MOVIL (XS revisamos en 384px)
+=============================================*/
+
+@media (max-width:384px){
+	.compra-r{
+		margin-top: 300px;
+	}
+	
+	.banner{
+		height:100px;
+		margin-top: 300px;
+		margin-bottom: -35px;
+	}
+
+	.banner .textoDer, .banner .textoCentro, .banner .textoIzq{
+		display: none;
+	}
+
+	.textoBanner h1{
+		display:none;
+	}
+
+	.textoBanner h2{
+		display:none;
+	}
+
+	.textoBanner h3{
+		display:none;
+	}
+
+	.banner .textoIzq {
+		top:0px; 
+	}
+
+	.banner .textoIzq h1{
+		font-size:20px;
+		padding:20px;
+		text-align: center;
+		display:block;
+	}	
+
+	.tituloDestacado h1{
+		text-align:center;
+	}
+
+	.tituloDestacado button{
+		position: absolute;
+		left:50%;
+		width:40%;
+		margin-left:-20%;
+
+	}
+	.err{
+	margin-top: -10px;
+	}
+	.miga{
+	margin-top: -10px;
+	}
+	.foot-bread{
+	
+	}
+	.prod{
+		margin-top: 0px;
+	}
+	.sub-ruta{
+		
+	}
+	.busc{
+	margin-top: 320px;
+	}
+	/*************Nuevos*/
+
+	#ordenar-productos{
+		margin-top: 7px;
+	}
+	#nombre-cate{
+		display: none;
+	}
+	#nombre-subcate{
+
+	}
+
+	#grids{
+		margin-top: 7px;
+	}
+	.btn-grid-buscar{
+		display: none;
+	}
+	.barraProductos{
+		margin-top: 300px;
+		height: 60px;
+	}
+	#btnList0{
+		display: none;
+	}
+	#bed{
+		margin-bottom: -150px;
+	}
+	#ofr{
+		margin-top: 170px;
+	}
+	.ofertas-especiales{
+		color:#ff5c55; 
+		font-size:10px;
+		text-align: center;
+		margin-top:150px;
+		
+		
+	}
+	.prec{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.desc{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.fin{
+		color:#ff5c55; 
+		font-size:9px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.ofer{
+		margin-top: -160px;
+		margin-bottom: 10px;
+	}
+	.oferta-0{
+		color:#ff5c55; 
+		font-size:12px;
+		text-align: center;
+	}
+	.oferta-1{
+		color:#ff5c55; 
+		font-size:10px;
+		text-align: center;
+	}
+	.min-text-2{
+		margin-top: 150px;
+	}
+	#categoria-pro{
+		font-size: 11px;
+		font-weight: bolder;
+		text-transform: uppercase;
+
+	}
+}
+
+/*=============================================
+MOVIL (XS revisamos en 375px)
+=============================================*/
+
+@media (max-width:375px){
+	.compra-r{
+		margin-top: 300px;
+	}
+	
+	.banner{
+		height:100px;
+		margin-top: 300px;
+		margin-bottom: -35px;
+	}
+
+	.banner .textoDer, .banner .textoCentro, .banner .textoIzq{
+		display: none;
+	}
+
+	.textoBanner h1{
+		display:none;
+	}
+
+	.textoBanner h2{
+		display:none;
+	}
+
+	.textoBanner h3{
+		display:none;
+	}
+
+	.banner .textoIzq {
+		top:0px; 
+	}
+
+	.banner .textoIzq h1{
+		font-size:20px;
+		padding:20px;
+		text-align: center;
+		display:block;
+	}	
+
+	.tituloDestacado h1{
+		text-align:center;
+	}
+
+	.tituloDestacado button{
+		position: absolute;
+		left:50%;
+		width:40%;
+		margin-left:-20%;
+
+	}
+	.err{
+	margin-top: -10px;
+	}
+	.miga{
+	margin-top: -10px;
+	}
+	.foot-bread{
+	
+	}
+	.prod{
+		margin-top: 0px;
+	}
+	.sub-ruta{
+		
+	}
+	.busc{
+	margin-top: 320px;
+	}
+	/*************Nuevos*/
+
+	#ordenar-productos{
+		margin-top: 5px;
+	}
+	#nombre-cate{
+		display: none;
+	}
+	#nombre-subcate{
+
+	}
+
+	#grids{
+		margin-top: 5px;
+	}
+	.btn-grid-buscar{
+		display: none;
+	}
+	.barraProductos{
+		margin-top: 300px;
+		height: 60px;
+	}
+	#btnList0{
+		display: none;
+	}
+	#bed{
+		margin-bottom: -150px;
+	}
+	#ofr{
+		margin-top: 170px;
+	}
+	.ofertas-especiales{
+		color:#ff5c55; 
+		font-size:10px;
+		text-align: center;
+		margin-top:150px;
+		
+		
+	}
+	.prec{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.desc{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.fin{
+		color:#ff5c55; 
+		font-size:9px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.ofer{
+		margin-top: -160px;
+		margin-bottom: 10px;
+	}
+	.oferta-0{
+		color:#ff5c55; 
+		font-size:12px;
+		text-align: center;
+	}
+	.oferta-1{
+		color:#ff5c55; 
+		font-size:10px;
+		text-align: center;
+	}
+	.min-text-2{
+		margin-top: 150px;
+	}
+	#categoria-pro{
+		font-size: 11px;
+		font-weight: bolder;
+		text-transform: uppercase;
+
+	}
+	#existencias{
+		font-size: 14px;
+	}
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 360px)
+=============================================*/
+
+@media (max-width:360px){
+	.compra-r{
+		margin-top: 300px;
+	}
+	
+	.banner{
+		height:100px;
+		margin-top: 300px;
+		margin-bottom: -35px;
+	}
+
+	.banner .textoDer, .banner .textoCentro, .banner .textoIzq{
+		display: none;
+	}
+
+	.textoBanner h1{
+		display:none;
+	}
+
+	.textoBanner h2{
+		display:none;
+	}
+
+	.textoBanner h3{
+		display:none;
+	}
+
+	.banner .textoIzq {
+		top:0px; 
+	}
+
+	.banner .textoIzq h1{
+		font-size:20px;
+		padding:20px;
+		text-align: center;
+		display:block;
+	}	
+
+	.tituloDestacado h1{
+		text-align:center;
+	}
+
+	.tituloDestacado button{
+		position: absolute;
+		left:50%;
+		width:40%;
+		margin-left:-20%;
+
+	}
+	.err{
+	margin-top: -10px;
+	}
+	.miga{
+	margin-top: -10px;
+	}
+	.foot-bread{
+	
+	}
+	.prod{
+		margin-top: 0px;
+	}
+	.sub-ruta{
+		
+	}
+	.busc{
+	margin-top: 320px;
+	}
+	/*************Nuevos*/
+
+	#ordenar-productos{
+		margin-top: 0px;
+	}
+	#nombre-cate{
+		display: none;
+	}
+	#nombre-subcate{
+
+	}
+
+	#grids{
+		margin-top: 0px;
+	}
+	.btn-grid-buscar{
+		display: none;
+	}
+	.barraProductos{
+		margin-top: 290px;
+		height: 50px;
+	}
+	#btnList0{
+		display: none;
+	}
+	#bed{
+		margin-bottom: -150px;
+	}
+	#ofr{
+		margin-top: 170px;
+	}
+	
+	.ofertas-especiales{
+		color:#ff5c55; 
+		font-size:10px;
+		text-align: center;
+		margin-top:150px;
+		
+		
+	}
+	.prec{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.desc{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.fin{
+		color:#ff5c55; 
+		font-size:9px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.ofer{
+		margin-top: -160px;
+		margin-bottom: 10px;
+	}
+	.oferta-0{
+		color:#ff5c55; 
+		font-size:12px;
+		text-align: center;
+	}
+	.oferta-1{
+		color:#ff5c55; 
+		font-size:10px;
+		text-align: center;
+	}
+	.min-text-2{
+		margin-top: 150px;
+	}
+	#categoria-pro{
+		font-size: 11px;
+		font-weight: bolder;
+		text-transform: uppercase;
+
+	}
+	#existencias{
+		font-size: 14px;
+	}
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:320px){
+	.compra-r{
+		margin-top: 300px;
+	}
+	
+	.banner{
+		height:100px;
+		margin-top: 300px;
+		margin-bottom: -35px;
+	}
+
+	.banner .textoDer, .banner .textoCentro, .banner .textoIzq{
+		display: none;
+	}
+
+	.textoBanner h1{
+		display:none;
+	}
+
+	.textoBanner h2{
+		display:none;
+	}
+
+	.textoBanner h3{
+		display:none;
+	}
+
+	.banner .textoIzq {
+		top:0px; 
+	}
+
+	.banner .textoIzq h1{
+		font-size:20px;
+		padding:20px;
+		text-align: center;
+		display:block;
+	}	
+
+	.tituloDestacado h1{
+		text-align:center;
+	}
+
+	.tituloDestacado button{
+		position: absolute;
+		left:50%;
+		width:40%;
+		margin-left:-20%;
+
+	}
+	.err{
+	margin-top: -10px;
+	}
+	.miga{
+	margin-top: -10px;
+	}
+	.foot-bread{
+	
+	}
+	.prod{
+		margin-top: -0px;
+	}
+
+	.sub-ruta{
+		
+	}
+	.busc{
+	margin-top: 320px;
+	}
+	/*************Nuevos*/
+
+	#ordenar-productos{
+		margin-top: 0px;
+	}
+	#nombre-cate{
+		display: none;
+	}
+	#nombre-subcate{
+
+	}
+
+	#grids{
+		margin-top: 0px;
+	}
+
+	.btn-grid-buscar{
+		display: none;
+	}
+	.barraProductos{
+		margin-top: 290px;
+		height: 50px;
+	}
+	#btnList0{
+		display: none;
+	}
+	#bed{
+		margin-bottom: -150px;
+	}
+	#ofr{
+		margin-top: 170px;
+	}
+	.ofertas-especiales{
+		color:#ff5c55; 
+		font-size:10px;
+		text-align: center;
+		margin-top:150px;
+		
+		
+	}
+	.prec{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.desc{
+		color:#ff5c55; 
+		font-size:13px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.fin{
+		color:#ff5c55; 
+		font-size:9px;
+		text-align: center;
+		margin-top:-5px;
+		font-weight: lighter;
+	}
+	.ofer{
+		margin-top: -160px;
+		margin-bottom: 10px;
+	}
+	.oferta-0{
+		color:#ff5c55; 
+		font-size:12px;
+		text-align: center;
+	}
+	.oferta-1{
+		color:#ff5c55; 
+		font-size:10px;
+		text-align: center;
+	}
+	.min-text-2{
+		margin-top: 150px;
+	}
+	/******Nuevos*/
+	#categoria-pro{
+		font-size: 11px;
+		font-weight: bolder;
+		text-transform: uppercase;
+
+
+	}
+	#existencias{
+		font-size: 14px;
+		
+	}
+	.nombre-p{
+		font-size: 9px;
+
+	}
+	#img-marca{
+		width: 60%;
+	}
+	#desc-of{
+		font-size: 10px;
+	}
+	#barraMayoreo{
+		margin-top: 290px;
+	}
+	#barraClientes{
+		margin-top: 290px;
+	}
+	#menuClientes{
+		margin-top: 0px;
+	}
+	#menuMayoreo{
+		margin-top: 0px;
+	}
+
+}

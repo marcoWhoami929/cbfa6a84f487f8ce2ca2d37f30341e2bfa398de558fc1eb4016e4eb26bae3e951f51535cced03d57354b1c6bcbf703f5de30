@@ -1,0 +1,80 @@
+/*=============================================
+PERFIL
+=============================================*/
+#perfil figure#imgPerfil img{
+
+	width:80%;
+	margin:10px 0;
+
+}
+
+#perfil #subirImagen{
+	display:none;
+	margin:20px 0px;
+	border:2px dotted #ccc;
+	overflow: hidden;
+	padding:40px;
+	cursor:pointer;
+}
+
+#perfil #subirImagen img{
+	width:100%;
+	padding:10px;
+}
+
+#perfil #subirImagen #datosImagen{
+	height:65px;
+}
+#perfil-user{
+	margin-top: 80px;
+}
+
+
+@media (max-width:320px){
+	#perfil-user{
+	margin-top: 250px;
+	}
+}
+@media (max-width:360px){
+	#perfil-user{
+	margin-top: 250px;
+	}
+}
+@media (max-width:375px){
+	#perfil-user{
+	margin-top: 250px;
+	}
+}
+@media (max-width:384px){
+	#perfil-user{
+	margin-top: 250px;
+	}
+}
+@media (max-width:414px){
+	#perfil-user{
+	margin-top: 260px;
+	}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 
+}
+@media only screen and (min-device-width : 1112px) and (max-device-width : 834px) and (orientation : landscape) {
+}
+@media (max-width:991px) and (min-width:768px){
+}
+
+@media (max-width:1199px) and (min-width:992px){
+}
+@media (min-width:1200px){
+	.subtitulos{
+		text-shadow:6px 6px 1px #dadada;
+		font-size:50px;
+	}
+	#categoria-pro-3{
+		font-size: 12px;
+		font-weight: bold;
+		padding-top: -40px;
+	}
+}
+

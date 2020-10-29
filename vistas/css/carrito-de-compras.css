@@ -1,0 +1,224 @@
+/*=============================================
+CARRITO DE COMPRAS
+=============================================*/
+.carr{
+		margin-top: 150px;
+	}
+	.carr2{
+		margin-top: 0px;
+	}
+.cabeceraCarrito{
+	height:40px;
+}
+
+.cabeceraCarrito h3{
+	margin-top:-5px
+}
+
+.cabeceraCheckout{
+	height:66px;
+}
+.carr{
+		margin-top: 150px;
+	}
+
+
+/*=============================================
+CHECKOUT
+=============================================*/
+
+.contenidoCheckout, .contenidoCheckout .row{
+	padding:0px 20px;
+}
+
+.formEnvio{
+	display:none;
+}
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1440px en adelante)
+=============================================*/
+@media  screen and (max-width: 1440px) {
+
+}
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+@media screen and (max-width: 1366px){
+
+}
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media screen and (max-width: 1288px){
+
+}
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1200px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+}
+
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+	.cabeceraCarrito{
+	height:40px;
+	
+	}
+	.carr{
+		
+	}
+	.carr2{
+
+	}
+	.cabeceraCarrito h3{
+	margin-top:-5px
+	}
+
+	.cabeceraCheckout{
+		height:66px;
+	}
+
+
+}
+/*=============================================
+MOVIL (XS revisamos en 414px)
+=============================================*/
+
+@media (max-width:414px){
+	.cabeceraCarrito{
+	height:40px;
+	
+	}
+	.carr{
+		margin-top: 350px;
+	}
+	.carr2{
+
+	}
+	.cabeceraCarrito h3{
+	margin-top:-5px
+	}
+
+	.cabeceraCheckout{
+		height:66px;
+	}
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 384px)
+=============================================*/
+
+@media (max-width:384px){
+	.cabeceraCarrito{
+	height:40px;
+	
+	}
+	.carr{
+		margin-top: 340px;
+	}
+	.carr2{
+
+	}
+	.cabeceraCarrito h3{
+	margin-top:-5px
+	}
+
+	.cabeceraCheckout{
+		height:66px;
+	}
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 375px)
+=============================================*/
+
+@media (max-width:375px){
+	.cabeceraCarrito{
+	height:40px;
+	
+	}
+	.carr{
+		margin-top: 340px;
+	}
+	.carr2{
+
+	}
+	.cabeceraCarrito h3{
+	margin-top:-5px
+	}
+
+	.cabeceraCheckout{
+		height:66px;
+	}
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 360px)
+=============================================*/
+
+@media (max-width:360px){
+	.cabeceraCarrito{
+	height:40px;
+	
+	}
+	.carr{
+		margin-top: 320px;
+	}
+	.carr2{
+
+	}
+	.cabeceraCarrito h3{
+	margin-top:-5px
+	}
+
+	.cabeceraCheckout{
+		height:66px;
+	}
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:320px){
+	.cabeceraCarrito{
+	height:40px;
+	
+	}
+	.carr{
+		margin-top: 300px;
+	}
+	.carr2{
+
+	}
+	.cabeceraCarrito h3{
+	margin-top:-5px
+	}
+
+	.cabeceraCheckout{
+		height:66px;
+	}
+
+}

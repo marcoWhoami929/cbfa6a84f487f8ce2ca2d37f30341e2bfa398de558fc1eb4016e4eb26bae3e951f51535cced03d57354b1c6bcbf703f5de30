@@ -1,0 +1,8 @@
+{
+    "require": {
+        "google/apiclient": "2.0",
+        "paypal/rest-api-sdk-php": "*",
+        "spipu/html2pdf": "^5.2",
+        "dompdf/dompdf": "^0.8.2"
+    }
+}

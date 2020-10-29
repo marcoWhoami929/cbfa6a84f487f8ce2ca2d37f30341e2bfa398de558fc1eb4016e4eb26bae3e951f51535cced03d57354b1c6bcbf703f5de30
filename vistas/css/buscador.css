@@ -1,0 +1,52 @@
+/*=============================
+BUSCADOR 
+=============================*/
+	
+	input[type=buscador] {
+	    width: 100%;
+	    padding: 12px 20px;
+	    margin: 8px 0;
+	    box-sizing: border-box;
+	    border: 2px solid #337ab7;
+	    border-radius: 4px;
+	    box-shadow: 5px 10px #337ab7;
+	    background-image: url('../img/search2.png');
+	    background-position: 0px 0px;
+	    background-repeat: no-repeat;
+	    padding-left: 60px;
+
+
+	}
+	input.buscador{
+		height: 75px;
+		border-radius: 10px 10px 10px 10px;
+	}
+	input[type=buscador]:focus{
+		box-shadow: 5px 10px lightblue;
+		 background-image: url('../img/search3.png');
+	    background-position: 0px 0px;
+	    background-repeat: no-repeat;
+	    padding-left: 60px;
+	    font-size: 20px;
+	    color:#337ab7;
+	    font-weight: bold;
+	}
+
+	.buscador::-webkit-input-placeholder{
+		font-size: 20px;
+		font-weight: bold;
+		
+
+	}
+	.buscador::-moz-placeholder{
+		font-size: 20px;
+		font-weight: bold;
+		
+
+	}
+	.buscador::-ms-input-placeholder{
+		font-size: 20px;
+		font-weight: bold;
+		
+
+	}
